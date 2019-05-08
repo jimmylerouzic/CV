@@ -36,7 +36,7 @@ p {
 
 #poste {
   font-style: italic;
-margin-top: 20px;
+  margin-top: 20px;
 }
 
 nav {
@@ -88,7 +88,6 @@ section {
   background-color: #ecf0f1;
   /*border-bottom: 1px solid #ccc;*/
   height: 300px;
-  /*text-align: center;*/
 }
 section:nth-child(1) {
   margin-top: 100px;
@@ -125,8 +124,8 @@ border: 1px solid #444;
 }
 
 .photo-avatar img {
-border-radius: 100px;
-width: 150px;
+  border-radius: 100px;
+  width: 150px;
 }
 
 .col-12 {
@@ -134,7 +133,7 @@ width: 150px;
 }
 
 .banner {
-    height: 100vh;
+  height: 100vh;
 }
 
 
@@ -222,6 +221,11 @@ footer a:hover {
   position:relative;
   text-align: center;
 }
+
+.contact-container h1 {
+
+}
+
 .contact-block{
   position:absolute;
   top: 0; bottom: 0; left: 0; right: 0;
