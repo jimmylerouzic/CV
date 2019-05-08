@@ -1,0 +1,284 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+* { margin: 0; padding: 0; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+body { font-family: 'Oswald', sans-serif; }
+
+h1, h2 {
+/*font-size: 4em;*/
+ color: #525659;
+  letter-spacing: -2px;
+ font-family: 'Montserrat', sans-serif;
+}
+
+h3, h4, p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+      margin-bottom: 0;
+}
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-weight: bold;
+}
+
+.banner h2, h3, h4 {
+
+  color: white;
+  /*opacity: .7;*/
+  /*text-shadow: 1px 1px 3px rgba(0,0,0,0.2);*/
+  font-weight: lighter;
+}
+
+#poste {
+  font-style: italic;
+margin-top: 20px;
+}
+
+nav {
+  width: 100%;
+  background-color: #1abc9c;
+  position: fixed;
+  top: 0;
+}
+
+
+.nav-container {
+  padding: 30px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.nav-container ul {
+
+}
+
+.nav-container ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+
+}
+.nav-container ul li a {
+  padding: 8px 0;
+  color: #ecf0f1;
+  font-size: 1.3em;
+  text-decoration: none;
+
+  transition: all 0.3s ease;
+}
+.nav-container ul li a:hover {
+  color: #16a085;
+}
+.active {
+  border-bottom: 2px solid #ecf0f1;
+}
+
+.presentation {
+  margin-top: 50px;
+}
+
+section {
+  width: 100%;
+  padding: 50px;
+  background-color: #ecf0f1;
+  /*border-bottom: 1px solid #ccc;*/
+  height: 300px;
+  /*text-align: center;*/
+}
+section:nth-child(1) {
+  margin-top: 100px;
+}
+
+.formation-page, .competence-page, .experience, .contact-page {
+  height: 100vh;
+}
+
+.loisir-page {
+  height: 100%;
+}
+
+.photo-loisir {
+height: 400px;
+width: 500px;
+
+}
+.photo-loisir img {
+
+height: 100%;
+width: 100%;
+object-fit: cover;
+border: 1px solid #444;
+}
+
+.formation-block {
+  display: flex;
+  justify-content: space-around;
+}
+
+.block-intro {
+  margin-top: 100px;
+}
+
+.photo-avatar img {
+border-radius: 100px;
+width: 150px;
+}
+
+.col-12 {
+  width: 1024px;
+}
+
+.banner {
+    height: 100vh;
+}
+
+
+.list-formation {
+  margin-top: 30px;
+
+}
+
+.ecole {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.ecole-info {
+  margin-left: 20px;
+}
+
+footer h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+footer p {
+  color: #ecf0f1;
+}
+footer a:hover {
+  color: #333;
+}
+
+.to-top {
+  padding: 20px;
+  /*background-color: #bdc3c7;*/
+  background-color: #bdc3c7;
+  width: 60px;
+  height: 60px;
+  float: right;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 100px;
+  margin-bottom: 25px;
+  opacity: 0;
+
+  transition: all .8s ease;
+}
+.to-top:hover {
+  box-shadow: 0 0 10px #333;
+}
+.to-top:before {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 0;
+  height: 0;
+  position: relative;
+  right: 4px;
+  bottom: 2px;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 20px solid #16a085;
+
+}
+
+.visible {
+  opacity: 1;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.fab {
+  margin: 10px;
+}
+
+.logo-foot {
+  width: 50px;
+}
+
+.contact-container {
+  height: 50vh;
+  position:relative;
+  text-align: center;
+}
+.contact-block{
+  position:absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+  margin: auto;
+  height: 20px;
+}
+
+.color-contact {
+  color: #1abc9c
+}
+
+.follow-info {
+  margin-top: 20px;
+}
+
+.image-rating {
+  padding-left: 500px;
+}
+
+.rating-block {
+  display: flex;
+  justify-content: space-around;
+   margin-top: 30px;
+}
+
+.rating li {
+list-style-type: none;
+font-family: 'Open Sans', sans-serif;
+}
+
+.card-product {
+  padding-top: 10px;
+  overflow: hidden;
+  width: 500px;
+  /*box-shadow: 0 0 15px rgba(0,0,0,0.2);*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-rating {
+display: flex;
+}
+
+.experience-block {
+  display: flex;
+  justify-content: space-around;
+}
+
+.list-entreprise {
+    margin-top: 30px;
+}
+
+#date-experience {
+  margin-bottom: 30px;
+}
+
+.name-entreprise {
+  color: #2fbc9c;
+}
