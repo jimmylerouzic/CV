@@ -1,7 +1,6 @@
 //Default active on home
 
 
-$('#s1').addClass("active");
 
 
 /*
