@@ -36,7 +36,7 @@ p {
 
 #poste {
   font-style: italic;
-  margin-top: 20px;
+margin-top: 20px;
 }
 
 nav {
@@ -88,6 +88,7 @@ section {
   background-color: #ecf0f1;
   /*border-bottom: 1px solid #ccc;*/
   height: 300px;
+  /*text-align: center;*/
 }
 section:nth-child(1) {
   margin-top: 100px;
@@ -124,8 +125,8 @@ border: 1px solid #444;
 }
 
 .photo-avatar img {
-  border-radius: 100px;
-  width: 150px;
+border-radius: 100px;
+width: 150px;
 }
 
 .col-12 {
@@ -133,7 +134,7 @@ border: 1px solid #444;
 }
 
 .banner {
-  height: 100vh;
+    height: 100vh;
 }
 
 
@@ -221,11 +222,6 @@ footer a:hover {
   position:relative;
   text-align: center;
 }
-
-.contact-container h1 {
-
-}
-
 .contact-block{
   position:absolute;
   top: 0; bottom: 0; left: 0; right: 0;
@@ -280,9 +276,66 @@ display: flex;
 }
 
 #date-experience {
-  margin-bottom: 30px;
+  margsin-bottom: 30px;
 }
 
 .name-entreprise {
   color: #2fbc9c;
+}
+
+@media (max-width: 800px) {
+
+.photo-loisir img {
+
+height: 100%;
+width: 100%;
+object-fit: cover;
+border: 1px solid #444;
+}
+
+.card-product {
+    width: 100vw;
+    padding: 10px;
+  }
+
+
+@media (max-width: 490px) {
+  .card-product {
+    width: 100vw;
+    padding: 10px;
+  }
+
+
+section {
+  padding: 10px;
+  width: 100%;
+  background-color: #ecf0f1;
+  /*border-bottom: 1px solid #ccc;*/
+  height: 300px;
+  /*text-align: center;*/
+}
+section:nth-child(1) {
+  margin-top: 100px;
+}
+
+section h1 {
+  margin-top: 70px;
+}
+
+.photo-avatar img {
+  margin-top: 70px;
+}
+
+  .photo-loisir {
+height: 300px;
+width: 300px;
+
+}
+.photo-loisir img {
+
+height: 100%;
+width: 100%;
+object-fit: cover;
+border: 1px solid #444;
+}
 }
