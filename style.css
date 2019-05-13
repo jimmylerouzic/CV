@@ -101,7 +101,7 @@ section:nth-child(1) {
 }
 
 .loisir-page {
-  height: 100vh;
+  height: 100%;
 }
 
 .photo-loisir {
@@ -145,14 +145,19 @@ width: 150px;
 
 }
 
+.formation-block {
+
+}
+
 .ecole {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   display: flex;
   align-items: center;
+
 }
 
 .ecole-info {
-  margin-left: 20px;
+  margin-left: 50px;
 }
 
 footer h3 {
@@ -275,6 +280,10 @@ display: flex;
 
 .list-entreprise {
     margin-top: 30px;
+}
+
+.entreprise {
+  margin-top: 50px;
 }
 
 #date-experience {
