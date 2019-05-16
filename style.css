@@ -241,6 +241,10 @@ footer a:hover {
   color: #324376;
 }
 
+.fab:hover {
+  color: #FF934F;
+}
+
 .logo-foot {
   width: 50px;
 }
