@@ -19,23 +19,21 @@ p {
       margin-bottom: 0;
 }
 
-/*.accueil {
-background-position: center;
-  background-size: cover;
-}*/
+
 .bonjour img {
-  width: 600px;
+width: 450px;
 }
+
+
 .banner h1 {
   margin: 0;
-  color: white;
+  color: black;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   font-weight: bold;
 }
 
-/*.banner {
-  background-size: cover;
-  background-position: center;*/
+.banner {
+
   /*padding: 150px 0;*/
 }
 
@@ -58,15 +56,12 @@ nav {
   position: fixed;
   top: 0;
   opacity: 0.9;
-
 }
-
 
 .nav-container {
   padding: 30;
   margin: 0 auto;
   text-align: center;
-
 }
 
 .nav-container ul li {
@@ -115,7 +110,7 @@ section h1 {
   margin-top: 70px;
 }
 
-.formation-page, .competence-page, .experience, .contact-page, .home {
+.formation-page, .competence-page, .experience, .contact-page, .loisir-page{
   height: 100vh;
 }
 
@@ -125,7 +120,6 @@ section h1 {
 
 .nav-font {
   font-family: 'Montserrat', sans-serif;
-
 }
 
 .photo-loisir {
@@ -137,12 +131,12 @@ border: 1px solid #444;
 /*object-fit: cover;*/
 
 }
-.photo-loisir img {
+/*.photo-loisir img {
 height: 100%;
 width: 100%;
 object-fit: cover;
 border: 1px solid #444;
-}
+}*/
 
 .formation-block {
   display: flex;
@@ -150,8 +144,8 @@ border: 1px solid #444;
 }
 
 .block-intro {
-  position:relative;
-  bottom: 120px;
+  /*position:relative;
+  bottom: 120px;*/
   /*margin-bottom: 200px;*/
 }
 
@@ -268,7 +262,7 @@ footer a:hover {
 }
 
 .contact-info {
-  margin-top: 80px;
+  margin-top: 60px;
 }
 
 .follow-info {
@@ -330,10 +324,6 @@ display: flex;
   margin-top: 30px;
 }
 
-/*#date-experience {
-  margsin-bottom: 30px;
-}
-*/
 .name-entreprise {
   color: #324376;
 }
@@ -353,6 +343,10 @@ border: 1px solid #444;
     padding: 10px;
   }
 
+   .bonjour img {
+width: 400px;
+}
+
 
 @media (max-width: 490px) {
   .card-product {
@@ -360,37 +354,30 @@ border: 1px solid #444;
     padding: 10px;
   }
 
+  .bonjour img {
+width: 300px;
+margin-top: 100px;
+}
+
 
 section {
   padding: 10px;
   width: 100%;
-  background-color: #ecf0f1;
-  /*border-bottom: 1px solid #ccc;*/
-  height: 300px;
-  /*text-align: center;*/
+  background-color: #ffff;
+  height: 100%;
 }
 section:nth-child(1) {
   margin-top: 100px;
 }
 
 section h1 {
-  margin-top: 100px;
+  margin-top: 130px;
 }
 
-.photo-avatar img {
-  margin-top: 70px;
-}
-
-  .photo-loisir {
-height: 300px;
-width: 300px;
-
-}
-.photo-loisir img {
-
-height: 100%;
-width: 100%;
-object-fit: cover;
+ .photo-loisir {
+height: 400px;
+width: 500px;
+background-size: cover;
+background-position: center;
 border: 1px solid #444;
-}
-}
+/*object-fit: cover;*/
