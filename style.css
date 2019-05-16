@@ -26,6 +26,12 @@ p {
   font-weight: bold;
 }
 
+.banner {
+  background-size: cover;
+  background-position: center;
+  /*padding: 150px 0;*/
+}
+
 .banner h2, h3, h4 {
 
   color: white;
@@ -41,17 +47,19 @@ margin-top: 20px;
 
 nav {
   width: 100%;
-  background-color: #1abc9c;
+  background-color: #FF934F;
   position: fixed;
   top: 0;
+  opacity: 0.9;
 
 }
 
 
 .nav-container {
-  padding: 30px;
+  padding: 30;
   margin: 0 auto;
   text-align: center;
+
 }
 
 .nav-container ul {
@@ -73,14 +81,15 @@ nav {
   transition: all 0.3s ease;
 }
 .nav-container ul li a:hover {
-  color: #16a085;
+  color: #324376;
 }
 .active {
   border-bottom: 2px solid #ecf0f1;
 }
 
 .presentation {
-  margin-top: 50px;
+  margin-top: 80px;
+  /*padding-bottom: 100px;*/
 }
 
 section {
@@ -94,6 +103,10 @@ section {
 }
 section:nth-child(1) {
   margin-top: 100px;
+}
+
+section h1 {
+  margin-top: 80px;
 }
 
 .formation-page, .competence-page, .experience, .contact-page {
@@ -123,13 +136,20 @@ border: 1px solid #444;
 }
 
 .block-intro {
-  margin-top: 100px;
+  margin-bottom: 200px;
 }
 
 .photo-avatar img {
 border-radius: 100px;
 width: 150px;
+/*opacity: 0.9;*/
+
 }
+
+.photo-avatar {
+margin-top: 35px;
+}
+
 
 .col-12 {
   width: 1024px;
@@ -139,14 +159,8 @@ width: 150px;
     height: 100vh;
 }
 
-
 .list-formation {
   margin-top: 30px;
-
-}
-
-.formation-block {
-
 }
 
 .ecole {
@@ -218,6 +232,7 @@ footer a:hover {
 
 .fab {
   margin: 10px;
+  color: #324376;
 }
 
 .logo-foot {
@@ -245,7 +260,8 @@ footer a:hover {
 }
 
 .color-contact {
-  color: #1abc9c
+  /*color: #1abc9c*/
+  color: #324376;
 }
 
 .follow-info {
@@ -277,6 +293,10 @@ font-family: 'Open Sans', sans-serif;
   align-items: center;
 }
 
+.cards {
+  margin-top: 30px;
+}
+
 .card-rating {
 display: flex;
 }
@@ -291,15 +311,15 @@ display: flex;
 }
 
 .entreprise {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
-#date-experience {
+/*#date-experience {
   margsin-bottom: 30px;
 }
-
+*/
 .name-entreprise {
-  color: #2fbc9c;
+  color: #324376;
 }
 
 @media (max-width: 800px) {
@@ -338,7 +358,7 @@ section:nth-child(1) {
 }
 
 section h1 {
-  margin-top: 70px;
+  margin-top: 100px;
 }
 
 .photo-avatar img {
