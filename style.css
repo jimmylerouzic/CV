@@ -55,7 +55,8 @@ nav {
   background-color: #FF934F;
   position: fixed;
   top: 0;
-  opacity: 0.9;
+  opacity: 0.98;
+  padding: 5px;
 }
 
 .nav-container {
@@ -67,7 +68,7 @@ nav {
 .nav-container ul li {
   list-style: none;
   display: inline-block;
-  margin: 0 10px;
+  margin: 0 10px;*/
 }
 .nav-container ul li a {
   padding: 8px 0;
@@ -97,7 +98,6 @@ section {
   width: 100%;
   padding: 50px;
   background-color: #ffff;
-  /*border-bottom: 1px solid #ccc;*/
   /*height: 300px;*/
   height: 100vh;
   /*text-align: center;*/
@@ -131,12 +131,6 @@ border: 1px solid #444;
 /*object-fit: cover;*/
 
 }
-/*.photo-loisir img {
-height: 100%;
-width: 100%;
-object-fit: cover;
-border: 1px solid #444;
-}*/
 
 .formation-block {
   display: flex;
@@ -145,15 +139,13 @@ border: 1px solid #444;
 
 .block-intro {
   /*position:relative;
-  bottom: 120px;*/
-  /*margin-bottom: 200px;*/
+  bottom: 20px;*/
+  margin-bottom: 200px;
 }
 
 .photo-avatar img {
 border-radius: 100px;
 width: 150px;
-/*opacity: 0.9;*/
-
 }
 
 .photo-avatar {
@@ -197,7 +189,6 @@ footer a:hover {
 
 .to-top {
   padding: 20px;
-  /*background-color: #bdc3c7;*/
   background-color: #bdc3c7;
   width: 60px;
   height: 60px;
@@ -226,7 +217,6 @@ footer a:hover {
   border-left: 15px solid transparent;
   border-right: 15px solid transparent;
   border-bottom: 20px solid #16a085;
-
 }
 
 .visible {
@@ -250,7 +240,7 @@ footer a:hover {
 }
 
 .contact-container {
-  height: 50vh;
+  /*height: 50vh;*/
   /*position:relative;*/
   text-align: center;
 }
@@ -263,10 +253,6 @@ footer a:hover {
 
 .contact-info {
   margin-top: 60px;
-}
-
-.follow-info {
-  /*padding-top: 20px;*/
 }
 
 .color-contact {
@@ -339,7 +325,7 @@ border: 1px solid #444;
 }
 
 .card-product {
-    width: 100vw;
+    width: 100%;
     padding: 10px;
   }
 
@@ -356,7 +342,7 @@ width: 400px;
 
   .bonjour img {
 width: 300px;
-margin-top: 100px;
+margin-top: 150px;
 }
 
 
