@@ -280,6 +280,7 @@ background-color: #FF934F;
 .contact-follow {
    border-radius: 50px;
    background-color: #FF934F;
+   opacity: 0.95;
   width: 450px;
   margin: 0 auto;
 }
