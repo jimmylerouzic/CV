@@ -259,11 +259,6 @@ footer a:hover {
   /*height: 140px;*/
 }
 
-  /*.round {
- border-radius: 100px;
-background-color: #FF934F;
-}*/
-
 .contact-block{
   /*position:absolute;*/
   top: 0; bottom: 0; left: 0; right: 0;
@@ -345,7 +340,7 @@ display: flex;
 }
 
 .typewrite {
-    color: #FF934F;
+    color: #324376;
     text-decoration: none;
     height: 60px;
     /*background-color: transparent;*/
