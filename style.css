@@ -354,8 +354,8 @@ display: flex;
 @media (max-width: 600px) {
 
 .photo-loisir {
-height: 350px;
-width: 350px;
+height: 200px;
+width: 200px;
 background-size: cover;
 background-position: center;
 border: 1px solid #444;
