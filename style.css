@@ -151,6 +151,7 @@ border: 1px solid #444;
 
 .photo-avatar img {
 border-radius: 100px;
+/*border: solid black 1px;*/
 width: 150px;
 }
 
@@ -242,7 +243,9 @@ footer a:hover {
 }
 
 .fab:hover {
-  color: #FF934F;
+  moz-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
 }
 
 .logo-foot {
@@ -253,7 +256,14 @@ footer a:hover {
   /*height: 50vh;*/
   /*position:relative;*/
   text-align: center;
+  /*height: 140px;*/
 }
+
+  /*.round {
+ border-radius: 100px;
+background-color: #FF934F;
+}*/
+
 .contact-block{
   /*position:absolute;*/
   top: 0; bottom: 0; left: 0; right: 0;
@@ -263,6 +273,15 @@ footer a:hover {
 
 .contact-info {
   margin-top: 60px;
+  padding: 10px;
+
+}
+
+.contact-follow {
+   border-radius: 50px;
+   background-color: #FF934F;
+  width: 450px;
+  margin: 0 auto;
 }
 
 .color-contact {
@@ -324,14 +343,22 @@ display: flex;
   color: #324376;
 }
 
-@media (max-width: 800px) {
+.typewrite {
+    color: #FF934F;
+    text-decoration: none;
+    height: 60px;
+    /*background-color: transparent;*/
+}
 
-.photo-loisir img {
+@media (max-width: 600px) {
 
-height: 100%;
-width: 100%;
-object-fit: cover;
+.photo-loisir {
+height: 350px;
+width: 350px;
+background-size: cover;
+background-position: center;
 border: 1px solid #444;
+object-fit: cover;
 }
 
 .card-product {
@@ -343,6 +370,13 @@ border: 1px solid #444;
 width: 400px;
 }
 
+.contact-follow {
+   border-radius: 50px;
+   background-color: #FF934F;
+  width: 400px;
+  margin: 0 auto;
+}
+
 
 @media (max-width: 490px) {
   .card-product {
@@ -350,12 +384,7 @@ width: 400px;
     padding: 10px;
   }
 
-  .bonjour img {
-width: 260px;
-margin-top: 150px;
-}
-
-nav {
+ nav {
   width: 100%;
   background-color: #FF934F;
   position: fixed;
@@ -378,9 +407,11 @@ section h1, h2{
 }
 
  .photo-loisir {
-height: 400px;
-width: 500px;
+height: 150px;
+width: 170px;
 background-size: cover;
 background-position: center;
 border: 1px solid #444;
-/*object-fit: cover;*/
+object-fit: cover;
+}
+}
