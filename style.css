@@ -18,12 +18,25 @@ h3, h4, p {
 p {
       margin-bottom: 0;
 }
+#adm {
+  margin-top: 2em;
+}
+
+.bonjour img {
+width: 450px;
+}
+
 
 .banner h1 {
   margin: 0;
-  color: white;
+  color: black;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   font-weight: bold;
+}
+
+.banner {
+
+  /*padding: 150px 0;*/
 }
 
 .banner h2, h3, h4 {
@@ -34,6 +47,10 @@ p {
   font-weight: lighter;
 }
 
+#date-experience {
+  margin-top: 1.5em;
+}
+
 #poste {
   font-style: italic;
 margin-top: 20px;
@@ -41,78 +58,90 @@ margin-top: 20px;
 
 nav {
   width: 100%;
-  background-color: #1abc9c;
+  background-color: #FF934F;
   position: fixed;
   top: 0;
+  opacity: 0.98;
+  padding: 5px;
 }
 
-
 .nav-container {
-  padding: 30px;
+  padding: 5px;
   margin: 0 auto;
   text-align: center;
 }
 
-.nav-container ul {
-
+.nav-container dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 0rem;
 }
 
 .nav-container ul li {
   list-style: none;
   display: inline-block;
   margin: 0 10px;
-
 }
 .nav-container ul li a {
   padding: 8px 0;
   color: #ecf0f1;
   font-size: 1.3em;
   text-decoration: none;
-
   transition: all 0.3s ease;
+    vertical-align: middle;
+
 }
 .nav-container ul li a:hover {
-  color: #16a085;
+  color: #324376;
 }
 .active {
   border-bottom: 2px solid #ecf0f1;
 }
 
 .presentation {
-  margin-top: 50px;
+  margin-top: 460px;
+  /*padding-bottom: 100px;*/
+}
+
+.presentation h1, h4 {
+  color: black;
 }
 
 section {
   width: 100%;
   padding: 50px;
-  background-color: #ecf0f1;
-  /*border-bottom: 1px solid #ccc;*/
-  height: 300px;
+  background-color: #ffff;
+  /*height: 300px;*/
+  height: 100vh;
   /*text-align: center;*/
 }
 section:nth-child(1) {
   margin-top: 100px;
 }
 
-.formation-page, .competence-page, .experience, .contact-page {
-  height: 100vh;
+section h1, h2{
+  margin-top: 70px;
+}
+
+.formation-page, .competence-page, .experience, .contact-page, .loisir-page{
+  /*height: 100vh;*/
 }
 
 .loisir-page {
   height: 100%;
 }
 
+.nav-font {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .photo-loisir {
 height: 400px;
 width: 500px;
-
-}
-.photo-loisir img {
-
-height: 100%;
-width: 100%;
-object-fit: cover;
+background-size: cover;
+background-position: center;
 border: 1px solid #444;
+/*object-fit: cover;*/
+
 }
 
 .formation-block {
@@ -121,13 +150,21 @@ border: 1px solid #444;
 }
 
 .block-intro {
-  margin-top: 100px;
+  /*position:relative;
+  bottom: 20px;*/
+  margin-bottom: 200px;
 }
 
 .photo-avatar img {
 border-radius: 100px;
+/*border: solid black 1px;*/
 width: 150px;
 }
+
+.photo-avatar {
+margin-top: 35px;
+}
+
 
 .col-12 {
   width: 1024px;
@@ -137,20 +174,19 @@ width: 150px;
     height: 100vh;
 }
 
-
 .list-formation {
   margin-top: 30px;
-
 }
 
 .ecole {
-  margin-bottom: 30px;
+  margin-bottom: 4em;
   display: flex;
   align-items: center;
+
 }
 
 .ecole-info {
-  margin-left: 20px;
+  margin-left: 50px;
 }
 
 footer h3 {
@@ -166,7 +202,6 @@ footer a:hover {
 
 .to-top {
   padding: 20px;
-  /*background-color: #bdc3c7;*/
   background-color: #bdc3c7;
   width: 60px;
   height: 60px;
@@ -195,7 +230,6 @@ footer a:hover {
   border-left: 15px solid transparent;
   border-right: 15px solid transparent;
   border-bottom: 20px solid #16a085;
-
 }
 
 .visible {
@@ -211,6 +245,13 @@ footer a:hover {
 
 .fab {
   margin: 10px;
+  color: #324376;
+}
+
+.fab:hover {
+  moz-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
 }
 
 .logo-foot {
@@ -218,19 +259,36 @@ footer a:hover {
 }
 
 .contact-container {
-  height: 50vh;
-  position:relative;
+  /*height: 50vh;*/
+  /*position:relative;*/
   text-align: center;
+  /*height: 140px;*/
 }
+
 .contact-block{
-  position:absolute;
+  /*position:absolute;*/
   top: 0; bottom: 0; left: 0; right: 0;
   margin: auto;
   height: 20px;
 }
 
+.contact-info {
+  margin-top: 60px;
+  padding: 10px;
+
+}
+
+.contact-follow {
+   border-radius: 50px;
+   background-color: #FF934F;
+   opacity: 0.95;
+  width: 450px;
+  margin: 0 auto;
+}
+
 .color-contact {
-  color: #1abc9c
+  /*color: #1abc9c*/
+  color: #324376;
 }
 
 .follow-info {
@@ -253,13 +311,17 @@ font-family: 'Open Sans', sans-serif;
 }
 
 .card-product {
-  padding-top: 10px;
+  padding-bottom: 1em;
   overflow: hidden;
   width: 500px;
   /*box-shadow: 0 0 15px rgba(0,0,0,0.2);*/
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.cards {
+  margin-top: 30px;
 }
 
 .card-rating {
@@ -271,16 +333,111 @@ display: flex;
   justify-content: space-around;
 }
 
-.list-entreprise {
-    margin-top: 30px;
-}
 
+<<<<<<< HEAD
 #date-experience {
   margsin-bottom: 30px;
+=======
+
+.entreprise {
+  margin-top: 20px;
+>>>>>>> gh-pages
 }
 
 .name-entreprise {
-  color: #2fbc9c;
+  color: #324376;
+}
+
+.typewrite {
+    color: #324376;
+    text-decoration: none;
+    height: 60px;
+    /*background-color: transparent;*/
+}
+
+@media (max-width: 600px) {
+
+.photo-loisir {
+height: 200px;
+width: 200px;
+background-size: cover;
+background-position: center;
+border: 1px solid #444;
+object-fit: cover;
+}
+
+.card-product {
+    width: 100%;
+    padding: 10px;
+  }
+
+   .bonjour img {
+width: 400px;
+}
+
+.contact-follow {
+   border-radius: 50px;
+   background-color: #FF934F;
+  width: 400px;
+  margin: 0 auto;
+}
+
+
+@media (max-width: 490px) {
+  .card-product {
+    width: 100vw;
+    padding: 10px;
+  }
+
+ nav {
+  width: 100%;
+  background-color: #FF934F;
+  position: fixed;
+  top: 0;
+  opacity: 0.98;
+
+}
+section {
+  padding: 10px;
+  width: 100%;
+  background-color: #ffff;
+  height: 100%;
+}
+section:nth-child(1) {
+  margin-top: 100px;
+}
+
+section h1, h2{
+  margin-top: 150px;
+}
+
+ .photo-loisir {
+height: 150px;
+width: 170px;
+background-size: cover;
+background-position: center;
+border: 1px solid #444;
+object-fit: cover;
+}
+
+.contact-follow {
+   border-radius: 50px;
+   background-color: #FF934F;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.bonjour img {
+width: 300px;
+margin-top: 150px;
+}
+
+.contact-info {
+  margin-top: 40px;
+  padding: 10px;
+
+}
+
 }
 
 @media (max-width: 800px) {
