@@ -335,6 +335,7 @@ display: flex;
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #date-experience {
   margsin-bottom: 30px;
 =======
@@ -342,6 +343,15 @@ display: flex;
 .entreprise {
   margin-top: 20px;
 >>>>>>> gh-pages
+=======
+
+#date-experience {
+  margsin-bottom: 30px;
+
+.entreprise {
+  margin-top: 30px;
+
+>>>>>>> 2146d410434b45fb69b5e15e379ccbebf41b8986
 }
 
 .name-entreprise {
