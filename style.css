@@ -18,7 +18,9 @@ h3, h4, p {
 p {
       margin-bottom: 0;
 }
-
+#adm {
+  margin-top: 2em;
+}
 
 .bonjour img {
 width: 450px;
@@ -43,6 +45,10 @@ width: 450px;
   /*opacity: .7;*/
   /*text-shadow: 1px 1px 3px rgba(0,0,0,0.2);*/
   font-weight: lighter;
+}
+
+#date-experience {
+  margin-top: 1.5em;
 }
 
 #poste {
@@ -117,7 +123,7 @@ section h1, h2{
 }
 
 .formation-page, .competence-page, .experience, .contact-page, .loisir-page{
-  height: 100vh;
+  /*height: 100vh;*/
 }
 
 .loisir-page {
@@ -173,7 +179,7 @@ margin-top: 35px;
 }
 
 .ecole {
-  margin-bottom: 50px;
+  margin-bottom: 4em;
   display: flex;
   align-items: center;
 
@@ -305,7 +311,7 @@ font-family: 'Open Sans', sans-serif;
 }
 
 .card-product {
-  padding-top: 10px;
+  padding-bottom: 1em;
   overflow: hidden;
   width: 500px;
   /*box-shadow: 0 0 15px rgba(0,0,0,0.2);*/
@@ -327,12 +333,10 @@ display: flex;
   justify-content: space-around;
 }
 
-.list-entreprise {
-    margin-top: 30px;
-}
+
 
 .entreprise {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .name-entreprise {
