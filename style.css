@@ -334,24 +334,9 @@ display: flex;
 }
 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-#date-experience {
-  margsin-bottom: 30px;
-=======
 
 .entreprise {
   margin-top: 20px;
->>>>>>> gh-pages
-=======
-
-#date-experience {
-  margsin-bottom: 30px;
-
-.entreprise {
-  margin-top: 30px;
-
->>>>>>> 2146d410434b45fb69b5e15e379ccbebf41b8986
 }
 
 .name-entreprise {
@@ -428,6 +413,28 @@ background-size: cover;
 background-position: center;
 border: 1px solid #444;
 object-fit: cover;
+}
+
+.contact-follow {
+   border-radius: 50px;
+   background-color: #FF934F;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.bonjour img {
+width: 300px;
+margin-top: 150px;
+}
+
+.contact-info {
+  margin-top: 40px;
+  padding: 10px;
+
+}
+
+}
+: cover;
 }
 
 .contact-follow {

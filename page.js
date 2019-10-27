@@ -1,15 +1,6 @@
 //Default active on home
 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
->>>>>>> gh-pages
-=======
->>>>>>> 2146d410434b45fb69b5e15e379ccbebf41b8986
-
-
 /*
 Smooth scrolling
 */
