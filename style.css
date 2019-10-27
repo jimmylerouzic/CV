@@ -380,8 +380,8 @@ width: 400px;
 
 @media (max-width: 490px) {
   .card-product {
-    width: 100vw;
-    padding: 10px;
+    /*width: 100vw;*/
+    /*padding: 10px;*/
   }
 
  nav {
@@ -393,10 +393,11 @@ width: 400px;
 
 }
 section {
-  padding: 10px;
+  padding: auto;
   width: 100%;
   background-color: #ffff;
   height: 100%;
+  /*margin: 0 auto;*/
 }
 section:nth-child(1) {
   margin-top: 100px;
@@ -408,7 +409,7 @@ section h1, h2{
 
  .photo-loisir {
 height: 150px;
-width: 170px;
+width: 90%;
 background-size: cover;
 background-position: center;
 border: 1px solid #444;
@@ -433,83 +434,4 @@ margin-top: 150px;
 
 }
 
-}
-: cover;
-}
-
-.contact-follow {
-   border-radius: 50px;
-   background-color: #FF934F;
-  width: 300px;
-  margin: 0 auto;
-}
-
-.bonjour img {
-width: 300px;
-margin-top: 150px;
-}
-
-.contact-info {
-  margin-top: 40px;
-  padding: 10px;
-
-}
-
-}
-
-@media (max-width: 800px) {
-
-.photo-loisir img {
-
-height: 100%;
-width: 100%;
-object-fit: cover;
-border: 1px solid #444;
-}
-
-.card-product {
-    width: 100vw;
-    padding: 10px;
-  }
-
-
-@media (max-width: 490px) {
-  .card-product {
-    width: 100vw;
-    padding: 10px;
-  }
-
-
-section {
-  padding: 10px;
-  width: 100%;
-  background-color: #ecf0f1;
-  /*border-bottom: 1px solid #ccc;*/
-  height: 300px;
-  /*text-align: center;*/
-}
-section:nth-child(1) {
-  margin-top: 100px;
-}
-
-section h1 {
-  margin-top: 70px;
-}
-
-.photo-avatar img {
-  margin-top: 70px;
-}
-
-  .photo-loisir {
-height: 300px;
-width: 300px;
-
-}
-.photo-loisir img {
-
-height: 100%;
-width: 100%;
-object-fit: cover;
-border: 1px solid #444;
-}
 }
