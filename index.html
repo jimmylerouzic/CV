@@ -16,6 +16,7 @@
   <body>
     <div class="container-cv">
       <nav>
+
   <div class="nav-container col-12">
 
     <ul>
@@ -45,41 +46,79 @@
         <div class="ecole-info">
           <p>2019 : Ruby on Rails Full-stack Développeur Web</p>
           <p><i>Le Wagon Nantes</i></p>
+
+        <div class="nav-container col-12 text-center">
+          <ul>
+            <li><a class="nav-font" id="s1" href="#1">Accueil</a></li>
+            <li><a class="nav-font" id="s2" href="#2">Formations</a></li>
+            <li><a class="nav-font" id="s3" href="#3">Compétences</a></li>
+            <li><a class="nav-font" id="s4" href="#4">Expériences</a></li>
+            <li><a class="nav-font" id="s5" href="#5">Loisirs</a></li>
+            <li><a class="nav-font" id="s6" href="#6">Contact</a></li>
+          </ul>
+
+        </div>
+      </nav>
+    <section id="1" class="home">
+      <div class="block-home">
+        <div class="bonjour text-center">
+          <img src="images/giphy (1).gif" alt="">
+        </div>
+        <div class="banner text-center block-intro">
+            <h1>Le Rouzic Jimmy</h1>
+            <h4 id="poste">Developpeur Web full Stack</h4>
         </div>
       </div>
-      <div class="ecole">
-        <img src="images/lille.png" alt="" width="60px">
-        <div class="ecole-info">
-          <p>2014 : Licence Pro Management et Développement de la PME</p>
-          <p><i>IAE de Lille</i></p>
+    </section>
+
+    <section class="formation-page" id="2">
+      <div class="block">
+        <div class="formation"><h1 class="text-center">Formation</h1></div>
+        <div class="formation-block">
+          <div class="list-formation">
+            <div class="ecole">
+              <img src="images/logo.png" alt="" width="60px">
+              <div class="ecole-info">
+                <p>2019 : Ruby on Rails Full-stack Développeur Web</p>
+                <p><i>Le Wagon Nantes</i></p>
+              </div>
+            </div>
+            <div class="ecole">
+              <img src="images/lille.png" alt="" width="60px">
+              <div class="ecole-info">
+                <p>2014 : Licence Pro Management et Développement de la PME</p>
+                <p><i>IAE de Lille</i></p>
+              </div>
+            </div>
+          <div class="ecole">
+            <img src="images/ja.png" alt="" width="60px">
+              <div class="ecole-info">
+                <p>2012 : BTS Assistant de Gestion PME PMI</p>
+                <p><i>Lycée Jeanne d'Arc de Rennes</i></p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="ecole">
-        <img src="images/ja.png" alt="" width="60px">
-        <div class="ecole-info">
-          <p>2012 : BTS Assistant de Gestion PME PMI</p>
-          <p><i>Lycée Jeanne d'Arc de Rennes</i></p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="competence-page" id="3"><h1 class="text-center">Compétences</h1>
-  <div class="rating-block">
-    <div class="cards-rating">
-      <div class="card-product">
-        <div class="card-product-infos">
-          <P>JavaScript, jQuery</p>
-        </div>
-        <img src="images/3.png">
-      </div>
-      <div class="card-product">
-        <div class="card-product-infos">
-          <P>Front-End (HTML, CSS, Bootstrap)</p>
-        </div>
-        <img src="images/3.png">
-      </div>
-      <div class="card-product">
+    </section>
+    <section class="competence-page" id="3">
+      <div class="block">
+      <div><h1 class="text-center">Compétences</h1></div>
+      <div class="rating-block">
+        <div class="cards-rating">
+          <div class="card-product">
+            <div class="card-product-infos">
+              <P>JavaScript, jQuery</p>
+            </div>
+            <img src="images/3.png">
+          </div>
+          <div class="card-product">
+            <div class="card-product-infos">
+              <P>Front-End (HTML, CSS, Bootstrap)</p>
+            </div>
+            <img src="images/3.png">
+          </div>
+        <div class="card-product">
         <div class="card-product-infos">
           <P>Git, GitHub</p>
         </div>
@@ -117,19 +156,22 @@
       </div>
     </div>
   </div>
+  </div>
 </section>
-<section class="experience" id="4"><h1 class="text-center">Expérience</h1>
+<section class="experience" id="4">
+  <div class="block">
+    <div><h1 class="text-center">Expérience</h1></div>
   <div class="experience-block">
     <div class="list-entreprise">
-      <div>
-        <p id="date-experience"><strong>De 2014 à 2018 : Assistant administratif/ SAV</strong></p>
+      <p id="date-experience"><strong>De 2014 à 2018 : Assistant administratif/ SAV</strong></p>
+      <div class="entreprise">
         <p class="name-entreprise" ><i>Dis Info, Rennes</i></p>
         <ul>
           <li><p>Création et suivi de dossiers SAV</p></li>
           <li><p>Contact direct avec les particuliers et les magasins Intermarché</p></li>
         </ul>
       </div>
-      <div>
+      <div class="entreprise">
         <p class="name-entreprise" ><i>Ouest France, Rennes</i></p>
         <ul>
           <li><p>Gestion de la campagne de relance des contrats saisonniers hôteliers </p></li>
@@ -139,40 +181,54 @@
       </div>
     </div>
   </div>
+  </div>
+
 </section>
 <section class="loisir-page" id="5">
-  <div><h1 class="text-center">Loisirs</h1></div>
-<div class="cards">
-  <div class="photo-loisir"><img src="images/run.jpeg" alt="" ></div>
-  <div class="photo-loisir"><img src="images/dj.jpeg" alt="" ></div>
-  <div class="photo-loisir"><img src="images/coder.jpeg" alt="" ></div>
-  <div class="photo-loisir"><img src="images/voyage.jpeg" alt="" ></div>
-  <div class="photo-loisir"><img src="images/bonbons.jpeg" alt="" ></div>
-</divg
+  <div class="block">
+    <div><h1 class="text-center">Loisirs</h1></div>
+    <div class="cards">
+      <div class="photo-loisir" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://media.giphy.com/media/kHXW69kaIZIGc/giphy.gif);" alt="" ></div>
+      <div class="photo-loisir" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif);" alt="" ></div>
+      <div class="photo-loisir" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://media.giphy.com/media/F93DseJtEqji8/giphy.gif);" alt=""></div>
+      <div class="photo-loisir" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://media.giphy.com/media/eJ8GsEZc5I4tW/giphy.gif);" alt=""></div>
+       <div class="photo-loisir" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(images/gateau.gif);" alt=""></div>
+       <div class="photo-loisir" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://media.giphy.com/media/6rbu1OfOSvIGY/giphy.gif);" alt=""></div>
+    </div>
+  </div>
 </section>
 <section class="contact-page" id="6">
-  <div class="contact-container">
-    <h1>Merci pour votre visite !</h1>
-    <div class="contact-block">
-      <div class="contact-info">
-        <h3 class="color-contact">Contactez-moi</h3>
-        <p><strong>email :</strong> jimmy.lerouzic@gmail.com <strong>tel : </strong>06.85.18.51.71</p>
+  <div class="round">
+    <div class="contact-container">
+      <div class="text-center"><h1>
+        <div href="" class="typewrite" data-period="2000" data-type='[ "Merci de votre visite !" ]'><span class="wrap"></span>
+        </div></h1>
       </div>
-      <div class="follow-info">
-        <h3 class="color-contact">Suivez-moi</h3>
-        <div class="footer-links">
-          <a class="logo-foot" href="https://github.com/jimmylerouzic"><i class="fab fa-github"></i></a>
-          <a href="https://www.linkedin.com/in/jimmylerouzic/"><i class="fab fa-linkedin"></i></a>
-          <a href="https://www.facebook.com/jimmy.reinhardt.16"><i class="fab fa-facebook"></i></a>
-          <a href="https://soundcloud.com/jimmyreinhardt"><i class="fab fa-soundcloud"></i></a>
+      <div class="contact-block text-center">
+        <div class="photo-avatar"><img class="avatar-picture" src="images/47318370.jpeg" alt="" width="140px"></div>
+        <div class="contact-follow">
+          <div class="contact-info">
+          <h3 class="color-contact">Contactez-moi</h3>
+          <p><strong>email :</strong> jimmy.lerouzic@gmail.com <strong>tel : </strong>06.85.18.51.71</p>
+        </div>
+        <div class="follow-info">
+          <h3 class="color-contact">Suivez-moi</h3>
+          <div class="footer-links">
+            <a class="logo-foot" href="https://github.com/jimmylerouzic"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/jimmylerouzic/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/jimmy.reinhardt.16"><i class="fab fa-facebook"></i></a>
+            <a href="https://soundcloud.com/jimmyreinhardt"><i class="fab fa-soundcloud"></i></a>
+          </div>
+        </div>
         </div>
       </div>
     </div>
   </div>
 </section>
-
+ </div>
 <a id="toTop" href="#1"><div class="to-top"></div></a>
 <script src="page.js"></script>
     </div>
 </body>
 </html>
+
